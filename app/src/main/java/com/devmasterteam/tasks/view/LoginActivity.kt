@@ -105,8 +105,8 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
                 } )
 
             val info = BiometricPrompt.PromptInfo.Builder()
-                .setTitle("Título")
-                .setSubtitle("Sub título")
+                .setTitle("Autenticação")
+                .setSubtitle("autenticação de login")
                 .setNegativeButtonText("Cancelar")
                 .build()
 
